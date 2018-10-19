@@ -1,6 +1,7 @@
 pointspossible=37
-score=20
-studentname="Nick"
+
+studentname=input("Please insert your name: ")
+score=int(input("Please insert your score"))
 grade=score/pointspossible
 #print(grade)
 letter='ERROR'
